@@ -89,6 +89,11 @@ body {
     cursor: pointer; 
 }
 
+.overlay.white {
+    color:darksalmon;
+}
+
+
 @media only screen and (max-width: 1100px) {
     .project-grid {
         /* background-color: chartreuse; */
@@ -116,5 +121,8 @@ body {
             "cup cup"
             "foam foam"
             "dimensional dimensional";
+    }
+    .project .overlay {
+        font-size: 24px;
     }
 }
